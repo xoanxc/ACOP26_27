@@ -1,3 +1,7 @@
+// Cadenas de caracteres. Pide al usuario su nombre y sus dos apellidos y
+// genera: a) El nombre completo en mayúsculas. b) La longitud de nombre completo. c) El
+// nombre de usuario con el siguiente formato: Primeras 3 letras del nombre + primeras 3
+// letras del primer apellido. (Ejemplo: Manuel Casas su usuario sería ManCas).
 Proceso Ejercicio3
 	Definir nombre, apellido1, apellido2, nombreCompleto, usuario Como Caracter;
 	Definir longitudNombre Como Entero;

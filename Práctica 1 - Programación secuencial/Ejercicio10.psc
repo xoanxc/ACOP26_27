@@ -1,3 +1,6 @@
+// Cálculo del consumo de combustible. Pide al usuario la distancia recorrida
+// (en km) y los litros de combustible consumidos. Calcula el consumo medio (litros/100
+// km). 
 Proceso Ejercicio10
 	Definir distanciaRecorrida, litrosConsumidos, consumoMedio Como Real;
 	Escribir "Introduce la distancia recorrida:";

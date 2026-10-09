@@ -1,3 +1,5 @@
+//Conversión de segundos a horas, minutos y segundos. Pide al usuario una
+// cantidad de segundos y muestra cuántas horas, minutos y segundos son equivalentes. 
 Proceso Ejercicio6
 	Definir seg, min, hora, segTotales Como Entero; // Tengo que poner esta basura de nombres a las variables porque "segundos" es parte del lenguaje.
 	Escribir "Introduce una cantidad de segundos:";

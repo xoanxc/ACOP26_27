@@ -1,27 +1,18 @@
-Proceso Ejercicio9
-	Definir nombreProducto, categoria, numReferencia, codigo, codigoFinal Como Caracter;
-	Definir longitudCodigo, longitudProducto Como Entero;
-	Escribir "Introduce el nombre del producto:";
-	Leer nombreProducto;
-	Escribir "Introduce la categoría del producto:";
-	Leer categoria;
-	Escribir "Introduce el número de referencia del producto:";
-	Leer numReferencia;
+// Tiempo de descarga. Pide el tamaño de un archivo en MB y la velocidad de
+// descarga en Mbps, y muestra cuánto tardará en descargarse en segundos y minutos. 
+Proceso Ejercicio8
+	Definir tamanoMB, velocidadDescargaMbps, tiempoSegundos, tiempoMinutos Como Real;
+	Escribir "Introduce el tamaño del archivo en MB:";
+	Leer tamanoMB;
+	Escribir "Introduce la velocidad de descarga en Mbps:";
+	Leer velocidadDescargaMbps;
 	
-	codigo <- Concatenar(Subcadena(categoria, 0, 2), "-");
-	codigo <- Concatenar(codigo, Subcadena(nombreProducto, 0, 2));
-	codigo <- Concatenar(codigo, "-");
-	codigoFinal <- Concatenar(codigo, numReferencia);
+	// Convertimos los MB a Megabits (1 MB = 8 Megabits) y calculamos los segundos
+	tiempoSegundos <- (tamanoMB * 8) / velocidadDescargaMbps;
 	
-	codigoFinal <- Mayusculas(codigoFinal);
+	tiempoMinutos <- tiempoSegundos / 60;
 	
-	Escribir "1) Código generado: ", codigoFinal;
+	Escribir "El archivo tardará en descargarse ", tiempoSegundos, " segundos.";
+	Escribir "Esto equivale aproximadamente a ", tiempoMinutos, " minutos.";
 	
-	longitudCodigo <- Longitud(codigoFinal);
-	Escribir "2) Longitud del código: ", longitudCodigo;
-	
-	Escribir "3) Primeras 2 letras del producto: ", Mayusculas(Subcadena(nombreProducto, 0, 1));
-
-	longitudProducto <- Longitud(nombreProducto);
-	Escribir "4) Últimas 2 letras del producto: ", Mayusculas(Subcadena(nombreProducto, longitudProducto - 2, longitudProducto - 1));
 FinProceso

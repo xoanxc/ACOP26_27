@@ -1,3 +1,6 @@
+// Promedio ponderado de tres notas. Pide tres notas y sus respectivos
+// porcentajes de ponderación. Muestra la nota final calculada según los pesos
+// introducidos.
 Proceso Ejercicio5
 
 	Definir nota1, nota2, nota3, peso1, peso2, peso3, notaFinal Como Real;

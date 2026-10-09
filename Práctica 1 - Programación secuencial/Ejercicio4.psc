@@ -1,3 +1,5 @@
+// Calcular el total con IVA. Pide al usuario el precio de un producto y el
+// porcentaje de IVA (por ejemplo, 21%), y calcula el importe total a pagar. 
 Proceso Ejercicio4
 	Definir precioProducto, porcentajeRobado,totalPagar Como Real;
 	Escribir "Introduce el precio del producto:";
