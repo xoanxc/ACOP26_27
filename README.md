@@ -7,7 +7,7 @@
 
 • Análisis de problemas
 
-• Diseñodealgoritmos
+• Diseño de algoritmos
 
 • Pseudocódigo y diagrama de bloques
 
